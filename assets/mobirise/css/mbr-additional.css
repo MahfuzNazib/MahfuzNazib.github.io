@@ -1774,51 +1774,6 @@ body {
     width: 100% !important;
   }
 }
-.cid-qYaA3ACZ0E {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-image: url("../../../assets/images/technology-code-computer-1080p-wallpaper-middle-size-970x545.jpg");
-}
-.cid-qYaA3ACZ0E .socicon-bg-facebook {
-  background: #3e5b98;
-  color: #ffffff;
-}
-.cid-qYaA3ACZ0E .socicon-bg-twitter {
-  background: #4da7de;
-  color: #ffffff;
-}
-.cid-qYaA3ACZ0E .socicon-bg-googleplus {
-  background: #dd4b39;
-  color: #ffffff;
-}
-.cid-qYaA3ACZ0E .socicon-bg-vkontakte {
-  background: #5a7fa6;
-  color: #ffffff;
-}
-.cid-qYaA3ACZ0E .socicon-bg-odnoklassniki {
-  background: #f48420;
-  color: #ffffff;
-}
-.cid-qYaA3ACZ0E .socicon-bg-pinterest {
-  background: #c92619;
-  color: #ffffff;
-}
-.cid-qYaA3ACZ0E .socicon-bg-mail {
-  background: #134785;
-  color: #ffffff;
-}
-.cid-qYaA3ACZ0E .btn-social {
-  border: none !important;
-}
-.cid-qYaA3ACZ0E [class^="socicon-"]:before,
-.cid-qYaA3ACZ0E [class*=" socicon-"]:before {
-  line-height: 44px;
-}
-@media (max-width: 767px) {
-  .cid-qYaA3ACZ0E .btn {
-    font-size: 20px !important;
-  }
-}
 .cid-qYarykPF1z {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -2047,73 +2002,15 @@ body {
 .cid-qYaNsZzy7c LABEL {
   color: #ffffff;
 }
-.cid-qYaKSqDm3I {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #232323;
-}
-@media (max-width: 767px) {
-  .cid-qYaKSqDm3I .content {
-    text-align: center;
-  }
-  .cid-qYaKSqDm3I .content > div:not(:last-child) {
-    margin-bottom: 2rem;
-  }
-}
-.cid-qYaKSqDm3I .map {
-  height: 18.75rem;
-}
-@media (max-width: 767px) {
-  .cid-qYaKSqDm3I .footer-lower .copyright {
-    margin-bottom: 1rem;
-    text-align: center;
-  }
-}
-.cid-qYaKSqDm3I .footer-lower hr {
-  margin: 1rem 0;
-  border-color: #fff;
-  opacity: .05;
-}
-.cid-qYaKSqDm3I .footer-lower .social-list {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  -webkit-justify-content: flex-end;
-}
-.cid-qYaKSqDm3I .footer-lower .social-list .mbr-iconfont-social {
-  font-size: 1.3rem;
-  color: #fff;
-}
-.cid-qYaKSqDm3I .footer-lower .social-list .soc-item {
-  margin: 0 .5rem;
-}
-.cid-qYaKSqDm3I .footer-lower .social-list a {
-  margin: 0;
-  opacity: .5;
-  -webkit-transition: .2s linear;
-  transition: .2s linear;
-}
-.cid-qYaKSqDm3I .footer-lower .social-list a:hover {
-  opacity: 1;
-}
-@media (max-width: 767px) {
-  .cid-qYaKSqDm3I .footer-lower .social-list {
-    justify-content: center;
-    -webkit-justify-content: center;
-  }
-}
-.cid-qYaKSqDm3I .google-map {
+.cid-qYn8Hy2nW4 .google-map {
   height: 25rem;
   position: relative;
 }
-.cid-qYaKSqDm3I .google-map iframe {
+.cid-qYn8Hy2nW4 .google-map iframe {
   height: 100%;
   width: 100%;
 }
-.cid-qYaKSqDm3I .google-map [data-state-details] {
+.cid-qYn8Hy2nW4 .google-map [data-state-details] {
   color: #6b6763;
   font-family: Montserrat;
   height: 1.5em;
@@ -2125,14 +2022,11 @@ body {
   top: 50%;
   width: 100%;
 }
-.cid-qYaKSqDm3I .google-map[data-state] {
+.cid-qYn8Hy2nW4 .google-map[data-state] {
   background: #e9e5dc;
 }
-.cid-qYaKSqDm3I .google-map[data-state="loading"] [data-state-details] {
+.cid-qYn8Hy2nW4 .google-map[data-state="loading"] [data-state-details] {
   display: none;
-}
-.cid-qYaKSqDm3I I {
-  color: #7f1933;
 }
 .cid-qYdB0auoRf .navbar {
   background: #073b4c;
@@ -3771,7 +3665,6 @@ body {
 .cid-qYe6A5ViYw {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/background1.jpg");
 }
 .cid-qYe6A5ViYw [class^="socicon-"]:before,
 .cid-qYe6A5ViYw [class*=" socicon-"]:before {
