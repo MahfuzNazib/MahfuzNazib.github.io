@@ -6,16 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!--BootStrap 4 CDN Likns-->
-    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-
-    <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <!--My CSS Style Link-->
     <link rel="stylesheet" href="style.css">
@@ -24,20 +16,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
     <!--Google Font Link-->
-    <link href="https://fonts.googleapis.com/css?family=Gupter|Kreon|Lobster+Two|Philosopher|Sacramento&display=swap" rel="stylesheet">
-    <!--Metarial Icon Link-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gupter|Kreon|Lobster+Two|Philosopher|Sacramento|Amaranth&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <title>Projects</title>
     <link rel="shortcut icon" type="image/png" href="Images/favicon.png">
+
+    <script>
+    // MDB Lightbox Init
+      $(function () {
+      $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+      });
+    </script>
+    </head>
+    <body>
 </head>
 <body>
     
 <!--Navigation Bar-->
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top wow bounceInLeft">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top wow bounceInLeft">
         <a class="navbar-brand" href="#">
-            <img src="Images/logo.png" atl="logo" style="width: 50px;">
+            <text class="text-primary">Nazib Mahfuz</text>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
@@ -59,9 +61,7 @@
             
           </ul>
         </div>  
-      </nav>
-      
-
+    </nav>
       <!--Sections-->
       <div class="container">
         <div class="ro">
@@ -71,199 +71,410 @@
                 </center>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-8">
-                <center>
-                    <img src="Images/project3.gif" style="width: 100%; transition-duration: 0.5s;">
-                </center>
+        <!--Carousel Wrapper-->
+        <div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
+          <!--Indicators-->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-2" data-slide-to="1"></li>
+            <li data-target="#carousel-example-2" data-slide-to="2"></li>
+          </ol>
+          <!--/.Indicators-->
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <div class="view">
+                <img class="d-block w-100" src="Images/Web2.png" alt="First slide">
+                <div class="mask rgba-black-light"></div>
+              </div>
+              <div class="carousel-caption">
+                <h3 class="h3-responsive text-primary">Web Application Development</h3>
+                <!-- <p>F</p> -->
+              </div>
             </div>
-            <div class="col-sm-4 bg-basic " style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: rgb(8, 58, 29); transition-duration: 0.5s;">
-                I always love to spent my time to making software and problem solving.<br><br><hr>
-                I have also making some projects like Web application,Desktop application. <br><br><hr>
-                Here you can find all my projects 
-                with a demo video and also source code.
+            <div class="carousel-item">
+              <!--Mask color-->
+              <div class="view">
+                <img class="d-block w-100" src="Images/Desktop.png" alt="Second slide">
+                <div class="mask rgba-black-light"></div>
+              </div>
+              <div class="carousel-caption">
+                <h3 class="h3-responsive text-primary">Desktop Application</h3>
+                <!-- <p>Secondary text</p> -->
+              </div>
             </div>
+            <div class="carousel-item">
+              <!--Mask color-->
+              <div class="view">
+                <img class="d-block w-100" src="Images/m1.png" alt="Third slide">
+                <div class="mask rgba-black-light"></div>
+              </div>
+              <div class="carousel-caption">
+                <h3 class="h3-responsive text-primary">Mobile Application</h3>
+                <!-- <p>Third text</p> -->
+              </div>
+            </div>
+          </div>
+          <!--/.Slides-->
+          <!--Controls-->
+          <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <!--/.Controls-->
         </div>
+        <!--/.Carousel Wrapper-->
+        <!-- End Header Sliding Images -->
       </div>
-      
+
+      <br>
+
       <div id="webSection">
           <div class="row">
               <div class="col-sm-12">
-                  <center>
-                      <div class="projectsTitle">Web Applications</div>
-                  </center>
+                  <p class="application-Text">Web Applications</p>
               </div>
           </div>
 
-          <!-- HMS sTARTED -->
-          <div class="row">
-            <div class="col-sm-12">
-              <text class="projectName">
-                  03. HMS
-              </text>
-            </div>
-          </div><br>
-          <div class="row">
-            <div class="col-sm-6">
-              <div style="text-align: left; margin-left: 20%;">
-                  Its a <strong>Hospital Management System</strong> project. The main focus of this project is
-                  to maintain hospital all activities :- 
-                  <ul>
-                    <li>Manage Employees</li>
-                    <li>Manage Doctor's</li>
-                    <li>Manage All Types of Patients</li>
-                    <li>Hospital Tests Branch</li>
-                    <li>Hospital Departments</li>
-                    <li><strong>Doctor Appointment</strong></li>
-                    <li><strong>Auto Time Slots Generate</strong></li>
-                    <li>Investigation</li>
-                    <li>Own Profile Updration</li>
+          <!-- HOSPITAL MANAGEMENT SYSTEM CARD -->
+          <div class="container">
+            <div class="card card-nav-tabs">
+              <div class="alert alert-info">
+                <h4>Hospital Management System</h4>
+              </div>
+              <div class="card-body">
+                <ul class="nav nav-tabs">
+                  <li class="active"><a data-toggle="tab" href="#descriptionHMS">Description</a></li>
+                  <li><a data-toggle="tab" href="#imagesHMS" >Images</a></li>
+                  <li><a data-toggle="tab" href="#demoHMS" >Demo Video</a></li>
+                  <li><a data-toggle="tab" href="#sourceHMS" >Source Code</a></li>
+                </ul>
 
-                  </ul>
-                  <br>
-                  and so on..
-                  <br>
-                  <strong font-color='red'>Currently I am working on this project.There are more feature are comming soon</strong>
-                   <center>
-                      <!--<button class="btn btn-info">
-                          More Info
-                      </button>-->
-                      <div id="accordion">
-                          <div class="card">
-                            <div class="card-header">
-                              <a class="collapsed card-link" data-toggle="collapse" href="#HMS">
-                                  More Info
-                            </a>
-                            </div>
-                            <div id="HMS" class="collapse" data-parent="#accordion">
-                              <div class="card-body">
-                                  <div class="alert alert-success">Front End : HTML, CSS, Bootstrap 4, JavaScript</div>
-                                  <div class="alert alert-success">Back End  : Laravel Framework</div>
-                                  <div class="alert alert-success">Application Structure  : MVC Pettern</div>
-                                  <div class="alert alert-success">Database  : phpmyadmin</div>
-                                  <div class="alert alert-success">Editor    : Visual Studio Code</div>
-                                  <div class="alert alert-info">Source Code  : <a href="https://github.com/MahfuzNazib/HospitalManagementSystem">Click Here</a></div>
-                            </div>
-                            </div>
+                <div class="tab-content">
+                  <div id="descriptionHMS" class="tab-pane fade in active">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <h3>Basic Description</h3>
+                        Its a <strong>Hospital Management System</strong> project. The main focus of this project is
+                        to maintain hospital all activities :- 
+                        <ul>
+                          <li>Manage Employees</li>
+                          <li>Manage Doctor's</li>
+                          <li>Manage All Types of Patients</li>
+                          <li>Hospital Tests Branch</li>
+                          <li>Hospital Departments</li>
+                          <li><strong>Doctor Appointment</strong></li>
+                          <li><strong>Auto Time Slots Generate</strong></li>
+                          <li>Investigation</li>
+                          <li>Own Profile Updration</li>
+                        </ul>
+                        <br>
+                        and so on..
+                        <br>
+                        <strong font-color='red'>Currently I am working on this project.There are more feature are comming soon</strong>
+                      </div>
+                      <!-- CARD Image -->
+                      <div class="col-sm-4">
+                        <figure>
+                          <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(98).jpg" data-size="1600x1067">
+                            <img alt="picture" src="Images/HMSCrad.png"
+                              class="img-fluid cardImage" width="100%"/>
+                          </a>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- IMAGES Tab -->
+                  <div id="imagesHMS" class="tab-pane fade">
+                    <h3>Related Images</h3>
+                    <div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div id="mdb-lightbox-ui"></div>
+                      
+                          <div class="mdb-lightbox no-margin">
+                      
+                            <figure class="col-md-4">
+                              <a href="Images/HMS/HMS1.png" data-size="1600x1067">
+                                <img alt="picture" src="Images/HMS/HMS1.png"
+                                  class="img-fluid">
+                              </a>
+                            </figure>
+                      
+                            <figure class="col-md-4">
+                              <a href="Images/HMS/HMS2.png" data-size="1600x1067">
+                                <img alt="picture" src="Images/HMS/HMS2.png"
+                                  class="img-fluid" />
+                              </a>
+                            </figure>
+                      
+                            <figure class="col-md-4">
+                              <a href="Images/HMS/HMS3.png" data-size="1600x1067">
+                                <img alt="picture" src="Images/HMS/HMS3.png"
+                                  class="img-fluid" />
+                              </a>
+                            </figure>
+                      
+                            <figure class="col-md-4">
+                              <a href="Images/HMS/HMS4.png" data-size="1600x1067">
+                                <img alt="picture" src="Images/HMS/HMS4.png"
+                                  class="img-fluid" />
+                              </a>
+                            </figure>
+                      
+                            <figure class="col-md-4">
+                              <a href="Images/HMS/HMS5.png" data-size="1600x1067">
+                                <img alt="picture" src="Images/HMS/HMS5.png"
+                                  class="img-fluid" />
+                              </a>
+                            </figure>
+                      
+                            <figure class="col-md-4">
+                              <a href="Images/HMS/HMS6.png" data-size="1600x1067">
+                                <img alt="picture" src="Images/HMS/HMS6.png"
+                                  class="img-fluid" />
+                              </a>
+                            </figure>
                           </div>
-                   </center>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- DEMO Tab -->
+                  <div id="demoHMS" class="tab-pane fade">
+                    <h3>Demo Video</h3>
+                      <video width="100%" controls>
+                        <source src="Videos/webProject/HMS/HMS_Main.webm">
+                      </video>
+                  </div>
+                  <!-- SOURCE CODE Tab -->
+                  <div id="sourceHMS" class="tab-pane fade">
+                    <h3>More information</h3>
+                      <div class="alert alert-success wow  bounceInLeft">Front End : HTML, CSS, Bootstrap 4, JavaScript</div>
+                      <div class="alert alert-success wow  bounceInRight">Back End  : Laravel Framework</div>
+                      <div class="alert alert-success wow  bounceInLeft">Application Structure  : MVC Pettern</div>
+                      <div class="alert alert-success wow  bounceInRight">Database  : phpmyadmin</div>
+                      <div class="alert alert-success wow  bounceInLeft">Editor    : Visual Studio Code</div>
+                      <div class="alert alert-info wow  bounceInRight">Source Code  : <a href="https://github.com/MahfuzNazib/HospitalManagementSystem">Click Here</a></div>
+                  </div>
+                </div>
+              </div>
               </div>
             </div>
-            <div class="col-sm-6">
-                <video width="80%" controls>
-                    <source src="Videos/webProject/HMS/HMS_Main.webm">
-                </video>
-            </div>
           </div>
-          <br>
-        <hr>
-          <!-- HMS End -->
+          <!-- End HMS -->
+          <hr>
 
-          <!-- AIUBian v_1.2 sTARTED -->
-          <div class="row">
-            <div class="col-sm-12">
-              <text class="projectName">
-                  02. AIUBian-A Social Platform (V_1.2)
-              </text>
-            </div>
-          </div><br>
-          <div class="row">
-            <div class="col-sm-6">
-              <div style="text-align: left; margin-left: 20%;">
-                  <u><b><i>New Feature in Users</i></b></u> : Search others users, View profile along users all posts, Give react(Like) in any post,Check Notification,
-                  Change Password.
-                  <br>
-                  <u><b><i>New Feature in Admin</i></b></u> : View a dynamic Dashbord, see total post, total member list, total admin list and so
-                  on. Block and Unblock users.Check Notification. 
-                   <br><br>
-                   <center>
-                      <!--<button class="btn btn-info">
-                          More Info
-                      </button>-->
-                      <div id="accordion">
-                          <div class="card">
-                            <div class="card-header">
-                              <a class="collapsed card-link" data-toggle="collapse" href="#AIUB2">
-                                  More Info
-                            </a>
-                            </div>
-                            <div id="AIUB2" class="collapse" data-parent="#accordion">
-                              <div class="card-body">
-                                  <div class="alert alert-success">Front End : ejs(view engine), CSS, Bootstrap 4</div>
-                                  <div class="alert alert-success">Back End  : Node JS, Express Web Framework.</div>
-                                  <div class="alert alert-success">Application Structure  : MVC Pettern</div>
-                                  <div class="alert alert-success">Database  : phpmyadmin</div>
-                                  <div class="alert alert-success">Editor    : Visual Studio Code</div>
-                                  <div class="alert alert-info">Source Code  : <a href="https://github.com/MahfuzNazib/NodeJS-AIUBian-Backup">Click Here</a></div>
-                            </div>
-                            </div>
+          <!-- AIUBian-V2 CARD -->
+          <div class="container">
+            <div class="card card-nav-tabs">
+              <div class="alert alert-info">
+                <h4>AIUBian-A Social Platform (V_1.2)</h4>
+              </div>
+              <div class="card-body">
+                <ul class="nav nav-tabs">
+                  <li class="active"><a data-toggle="tab" href="#descriptionAIUBian2">Description</a></li>
+                  <li><a data-toggle="tab" href="#imagesAIUBian2" >Images</a></li>
+                  <li><a data-toggle="tab" href="#demoAIUBian2" >Demo Video</a></li>
+                  <li><a data-toggle="tab" href="#sourceAIUBian2" >More Info</a></li>
+                </ul>
+
+                <div class="tab-content">
+                  <div id="descriptionAIUBian2" class="tab-pane fade in active">
+                      <h3>Basic Description</h3>
+                      <u><b><i>New Feature in Users</i></b></u> : Search others users, View profile along users all posts, Give react(Like) in any post,Check Notification,
+                      Change Password.
+                      <br>
+                      <u><b><i>New Feature in Admin</i></b></u> : View a dynamic Dashbord, see total post, total member list, total admin list and so
+                      on. Block and Unblock users.Check Notification. 
+                     <br><br>
+                    </div>
+                  <!-- IMAGES Tab -->
+                  <div id="imagesAIUBian2" class="tab-pane fade">
+                    <h3>Related Images</h3>
+                    <div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div id="mdb-lightbox-ui"></div>
+                      
+                          <div class="mdb-lightbox no-margin">
+                      
+                            <figure class="col-md-4">
+                              <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(117).jpg" data-size="1600x1067">
+                                <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg"
+                                  class="img-fluid">
+                              </a>
+                            </figure>
+                      
+                            <figure class="col-md-4">
+                              <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(98).jpg" data-size="1600x1067">
+                                <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(98).jpg"
+                                  class="img-fluid" />
+                              </a>
+                            </figure>
+                      
+                            <figure class="col-md-4">
+                              <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(131).jpg" data-size="1600x1067">
+                                <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(131).jpg"
+                                  class="img-fluid" />
+                              </a>
+                            </figure>
+                      
+                            <figure class="col-md-4">
+                              <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(123).jpg" data-size="1600x1067">
+                                <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(123).jpg"
+                                  class="img-fluid" />
+                              </a>
+                            </figure>
+                      
+                            <figure class="col-md-4">
+                              <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(118).jpg" data-size="1600x1067">
+                                <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(118).jpg"
+                                  class="img-fluid" />
+                              </a>
+                            </figure>
+                      
+                            <figure class="col-md-4">
+                              <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(128).jpg" data-size="1600x1067">
+                                <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(128).jpg"
+                                  class="img-fluid" />
+                              </a>
+                            </figure>
                           </div>
-                   </center>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- DEMO Tab -->
+                  <div id="demoAIUBian2" class="tab-pane fade">
+                    <h3>Demo Video</h3>
+                      <video width="100%" controls>
+                        <source src="Videos/webProject/AIUBian_V_1.2/AIUBian_V_1.2.webm">
+                      </video>
+                  </div>
+                  <!-- SOURCE CODE Tab -->
+                  <div id="sourceAIUBian2" class="tab-pane fade">
+                    <h3>More information</h3>
+                      <div class="alert alert-success wow  bounceInLeft">Front End : ejs(view engine), CSS, Bootstrap 4</div>
+                      <div class="alert alert-success wow  bounceInRight">Back End  : Node JS, Express Web Framework</div>
+                      <div class="alert alert-success wow  bounceInLeft">Application Structure  : MVC Pettern</div>
+                      <div class="alert alert-success wow  bounceInRight">Database  : phpmyadmin</div>
+                      <div class="alert alert-success wow  bounceInLeft">Editor    : Visual Studio Code</div>
+                      <div class="alert alert-info wow  bounceInRight">Source Code  : <a href="https://github.com/MahfuzNazib/NodeJS-AIUBian-Backup">Click Here</a></div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="col-sm-6">
-                <video width="80%" controls>
-                    <source src="Videos/webProject/AIUBian_V_1.2/AIUBian_V_1.2.webm">
-                </video>
+              </div>
             </div>
           </div>
-          <br>
         <hr>
-          <!-- AIUBian V:1.2 End -->
 
+        <!-- AIUBian CARD -->
+        <div class="container">
+          <div class="card card-nav-tabs">
+            <div class="alert alert-info">
+              <h4>AIUBian</h4>
+            </div>
+            <div class="card-body">
+              <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#descriptionAIUBian">Description</a></li>
+                <li><a data-toggle="tab" href="#imagesAIUBian" >Images</a></li>
+                <li><a data-toggle="tab" href="#demoAIUBian" >Demo Video</a></li>
+                <li><a data-toggle="tab" href="#sourceAIUBian" >More Info</a></li>
+              </ul>
 
-
-          <!-- AIUBianV1.0 Project -->
-          <div class="row">
-              <div class="col-sm-12">
-                <text class="projectName">
-                    01. AIUBian
-                </text>
-              </div>
-          </div><br>
-          <div class="row">
-              <div class="col-sm-6">
-                <div style="text-align: left; margin-left: 20%;">
+              <div class="tab-content">
+                <div id="descriptionAIUBian" class="tab-pane fade in active">
+                    <h3>Basic Description</h3>
                     This is an application where all the AIUBian like AIUB Faculty, 
                     Student and Alumni will connected together. So that one AIUBian can help another AIUBian.
                      A teacher or alumni will see the current students profile . He can forward his CV to the company. 
                      Or an alumni can post which is a job offer and current student will know in short time. A students also see the faculty 
                      profile so that students can get a idea which faculty will work which thesis domain. Another uses of this application 
                      is faculty, alumni and students can message or chat with each others.<br><br>
-                     <center>
-                        <!--<button class="btn btn-info">
-                            More Info
-                        </button>-->
-                        <div id="accordion">
-                            <div class="card">
-                              <div class="card-header">
-                                <a class="collapsed card-link" data-toggle="collapse" href="#AIUB1">
-                                    More Info
-                              </a>
-                              </div>
-                              <div id="AIUB1" class="collapse" data-parent="#accordion">
-                                <div class="card-body">
-                                    <div class="alert alert-success">Front End : HTML, CSS</div>
-                                    <div class="alert alert-success">Back End  : php, vanilla js, ajax</div>
-                                    <div class="alert alert-success">Database  : phpmyadmin</div>
-                                    <div class="alert alert-success">Editor    : Visual Studio Code</div>
-                                    <div class="alert alert-info">Source Code  : <a href="https://github.com/MahfuzNazib/AIUBian">Click Here</a></div>
-                              </div>
-                              </div>
-                            </div>
-                     </center>
+                  </div>
+                <!-- IMAGES Tab -->
+                <div id="imagesAIUBian" class="tab-pane fade">
+                  <h3>Related Images</h3>
+                  <div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div id="mdb-lightbox-ui"></div>
+                    
+                        <div class="mdb-lightbox no-margin">
+                    
+                          <figure class="col-md-4">
+                            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(117).jpg" data-size="1600x1067">
+                              <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg"
+                                class="img-fluid">
+                            </a>
+                          </figure>
+                    
+                          <figure class="col-md-4">
+                            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(98).jpg" data-size="1600x1067">
+                              <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(98).jpg"
+                                class="img-fluid" />
+                            </a>
+                          </figure>
+                    
+                          <figure class="col-md-4">
+                            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(131).jpg" data-size="1600x1067">
+                              <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(131).jpg"
+                                class="img-fluid" />
+                            </a>
+                          </figure>
+                    
+                          <figure class="col-md-4">
+                            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(123).jpg" data-size="1600x1067">
+                              <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(123).jpg"
+                                class="img-fluid" />
+                            </a>
+                          </figure>
+                    
+                          <figure class="col-md-4">
+                            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(118).jpg" data-size="1600x1067">
+                              <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(118).jpg"
+                                class="img-fluid" />
+                            </a>
+                          </figure>
+                    
+                          <figure class="col-md-4">
+                            <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(128).jpg" data-size="1600x1067">
+                              <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(128).jpg"
+                                class="img-fluid" />
+                            </a>
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- DEMO Tab -->
+                <div id="demoAIUBian" class="tab-pane fade">
+                  <h3>Demo Video</h3>
+                    <video width="100%" controls>
+                      <source src="Videos/webProject/AIUBian/AIUBian_Main_Video.webm">
+                    </video>
+                </div>
+                <!-- SOURCE CODE Tab -->
+                <div id="sourceAIUBian" class="tab-pane fade">
+                  <h3>More information</h3>
+                    <div class="alert alert-success wow  bounceInLeft">Front End : HTML, CSS</div>
+                    <div class="alert alert-success wow  bounceInRight">Back End  : php, vanilla js, ajax</div>
+                    <div class="alert alert-success wow  bounceInRight">Database  : phpmyadmin</div>
+                    <div class="alert alert-success wow  bounceInLeft">Editor    : Visual Studio Code</div>
+                    <div class="alert alert-info wow  bounceInRight">Source Code  : <a href="https://github.com/MahfuzNazib/AIUBian">Click Here</a></div>
                 </div>
               </div>
-              <div class="col-sm-6">
-                  <video width="80%" controls>
-                      <source src="Videos/webProject/AIUBian/AIUBian_Main_Video.webm">
-                  </video>
-              </div>
+            </div>
+            </div>
           </div>
-          <br>
-        <hr>
-        <!-- AIUBian V1.0 Project End -->
-      </div>
+        </div>
+      <hr>
 
       <!--Desktop Section-->
       <div id="desktopSection">
@@ -439,5 +650,25 @@
           </div>
       </div>
   </div>
+  <!--JAVASCRIPT CDN LINKS AND CODES-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script>
+      var wow = new WOW(
+          {
+              boxClass:     'wow',      // animated element css class (default is wow)
+              animateClass: 'animated', // animation css class (default is animated)
+              offset:       0,          // distance to the element when triggering the animation (default is 0)
+              mobile:       true,       // trigger animations on mobile devices (default is true)
+              live:         true,       // act on asynchronously loaded content (default is true)
+              callback:     function(box) {
+              // the callback is fired every time an animation is started
+              // the argument that is passed in is the DOM node being animated
+              },
+              scrollContainer: null,    // optional scroll container selector, otherwise use window,
+              resetAnimation: true,     // reset animation on end (default is true)
+          }
+      );
+      wow.init();
+  </script>
 </body>
 </html>

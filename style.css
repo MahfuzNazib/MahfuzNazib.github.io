@@ -233,3 +233,14 @@ h1{
 {
     margin-left: 30%;
 }
+
+.application-Text{
+    font-family: 'Amaranth', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    transition-duration: 0.5s;
+}
+
+.cardImage{
+    margin-top: 15%;
+}
