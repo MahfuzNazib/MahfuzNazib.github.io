@@ -29,7 +29,7 @@ html{
 }
 
 #sectionResume{
-    height: 100vh;
+    height: auto;
     background-color: rgb(216, 216, 187);
     width: 100%;
     display: inline-block;
