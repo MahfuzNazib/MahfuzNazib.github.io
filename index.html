@@ -494,8 +494,15 @@
                 <hr>
                 <div class="col-sm-12">
                     <center>
-                        copyright@NazibMahfuz
-                    </center>
+                        <script>
+                          function currentYear() {
+                            var d = new Date();
+                            var n = d.getFullYear();
+                            document.getElementById("currentYear").innerHTML = n;
+                          }
+                          </script>
+                          copyright@NazibMahfuz <strong>2018</strong> - <strong id="currentYear"></strong>
+                      </center>
                 </div>
             </div>
         </div>
@@ -506,6 +513,7 @@
     <!--JAVASCRIPT CDN LINKS AND CODES-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
+        onload = currentYear()
         var wow = new WOW(
             {
                 boxClass:     'wow',      // animated element css class (default is wow)
